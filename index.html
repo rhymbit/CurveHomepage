@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Curve Page</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="/main.js"></script>
+
+  <section class="blue">
+    <h1>Nice Curves</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod nihil repellat reiciendis iste delectus aspernatur
+      fugiat unde aliquam ratione id placeat impedit temporibus quibusdam, ad molestias provident numquam sunt minima?
+    </p>
+  </section>
+
+  <div class="spacer waves-haikei"></div>
+
+  <section>
+    <h1>Nice Curves</h1>
+    <p>Iusto expedita dolor, corporis perferendis soluta, qui voluptates odio, totam consequatur sequi deleniti illum ad
+      maiores ut doloremque cumque? Fuga dolore ex molestias dolor aperiam quas quisquam fugit molestiae? Maxime?</p>
+  </section>
+
+  <section class="red">
+    <h1>Nice Curves</h1>
+    <p>Repellendus odit nesciunt fugit eaque! Iusto necessitatibus quos nam itaque nostrum corporis. Culpa itaque
+      veritatis aliquam quasi ex necessitatibus nisi velit soluta? Non est reiciendis a ad voluptatum deserunt tempora!
+    </p>
+
+
+    <div class="wave">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+          class="shape-fill"></path>
+      </svg>
+    </div>
+
+  </section>
+
+  <section>
+    <h1>Nice Curves</h1>
+    <p>Amet ab voluptate, fugit nulla rerum maiores, nam laudantium corporis quis distinctio tempora error eos molestias
+      perferendis, accusantium necessitatibus illum repellendus aperiam adipisci velit? Aliquam, id? Atque odit nam hic!
+    </p>
+  </section>
+
+
+  <div class="spacer waves-haikei flip"></div>
+  <section class="pink">
+    <div class="blob-content">
+      <h1>Nice Curves</h1>
+      <p>Tenetur sint modi iusto! Natus alias vero cum. Itaque tempora, eum, alias minima dignissimos ducimus sapiente
+        aliquid cumque aliquam atque quis nihil amet error doloremque quisquam provident non inventore. Quaerat.</p>
+    </div>
+    <svg 
+      class="blob-motion"
+      id="visual" viewBox="0 0 900 300" width="900" height="300" xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+
+      <g transform="translate(458.31268976123977 149.15258284326495)">
+        <path id="blob1"
+          d="M54.4 -59.4C73.4 -35.4 93.7 -17.7 95.6 1.9C97.4 21.4 80.9 42.9 61.9 67.9C42.9 92.9 21.4 121.4 -0.2 121.7C-21.9 121.9 -43.8 93.8 -65.5 68.8C-87.2 43.8 -108.6 21.9 -111.9 -3.3C-115.2 -28.5 -100.4 -57 -78.7 -81C-57 -105 -28.5 -124.5 -5.4 -119.1C17.7 -113.7 35.4 -83.4 54.4 -59.4"
+          fill="#BB004B"></path>
+      </g>
+
+      <g transform="translate(442.47492920280763 149.9193256990021)" style="visibility: hidden">
+        <path id="blob2"
+          d="M60.1 -55.3C83.4 -36.8 111.7 -18.4 120.2 8.5C128.7 35.4 117.4 70.7 94 85.2C70.7 99.7 35.4 93.4 8.8 84.5C-17.7 75.7 -35.4 64.4 -57.5 49.9C-79.7 35.4 -106.3 17.7 -107.9 -1.5C-109.4 -20.7 -85.8 -41.5 -63.7 -60C-41.5 -78.5 -20.7 -94.7 -1.2 -93.6C18.4 -92.4 36.8 -73.8 60.1 -55.3"
+          fill="#BB004B"></path>
+      </g>
+
+    </svg>
+
+    <script>
+      const tween = KUTE.fromTo(
+        '#blob1',
+        { path: '#blob1' },
+        { path: '#blob2' },
+        { repeat: 999, duration: 3000, yoyo: true }
+      )
+
+      tween.start()
+
+    </script>
+
+  </section>
+  <div class="spacer waves-haikei"></div>
+
+  <section class="blobs">
+    <h1>Nice Curves!</h1>
+    <p>A website is like a road. The more curves it has the more interesting it is.</p>
+  </section>
+
+
+  <section class="bubble">
+    <h1>Nice Curves</h1>
+    <p>Consectetur voluptatibus eum corporis odio, aliquid distinctio magnam harum eaque ad excepturi corrupti eos
+      facilis neque ipsam sapiente non, et amet labore! Reprehenderit, consequatur. Harum reprehenderit incidunt
+      voluptas et itaque.</p>
+  </section>
+  <section class="dark">
+    <h1>Nice Curves</h1>
+    <p>Inventore perspiciatis corrupti odit repellat itaque natus, commodi atque, exercitationem veniam, voluptas
+      reprehenderit obcaecati laborum quas labore quidem illo similique? Fugiat accusamus esse voluptatum optio minima
+      neque ipsam a labore!</p>
+  </section>
+  <section>
+    <h1>Nice Curves</h1>
+    <p>Accusamus magni nisi minima odio impedit perspiciatis exercitationem, sunt ab sapiente, cupiditate blanditiis
+      repellat tempore possimus eaque, magnam labore a dolorem autem eius ratione cum sed quia eos aut? Eius.</p>
+  </section>
+
+</body>
+
+</html>
